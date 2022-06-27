@@ -1,1 +1,5 @@
-# nossas-mda-contador
+# mda-contador
+
+# Dev
+
+```npx serve```
