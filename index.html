@@ -125,14 +125,16 @@
           };
 
           displayTimeLeft(secondsLeft);
+          stop(countdown)
 
         }, 1000);
       }
 
       function displayTimeLeft(seconds) {
-        hoursElement.textContent = Math.floor((seconds % 86400) / 3600);
-        minutesElement.textContent = minutes;
-        secondsElement.textContent = seconds % 60 < 10 ? `0${seconds % 60}` : seconds % 60
+        hoursElement.textContent = 0;
+        minutesElement.textContent = 0;
+        secondsElement.textContent = 0;
+
       }
     }
 
